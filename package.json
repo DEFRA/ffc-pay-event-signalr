@@ -1,0 +1,40 @@
+{
+  "name": "ffc-pay-event-signalr",
+  "description": "Azure Function app for sending real-time events",
+  "version": "0.1.0",
+  "author": "Defra",
+  "contributors": [
+    "Steve Dickinson <steve.dickinson@defra.gov.uk>"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "standard": "^16.0.3"
+  },
+  "homepage": "https://github.com/DEFRA/ffc-pay-event-signalr",
+  "license": "OGL-UK-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DEFRA/ffc-pay-event-signalr.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "start": "func start -p 7082",
+    "test": "jest",
+    "test:watch": "jest --coverage=false --onlyChanged --watch"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "beforeEach",
+      "expect",
+      "test",
+      "afterEach",
+      "jest",
+      "beforeAll",
+      "afterAll"
+    ]
+  }
+}
