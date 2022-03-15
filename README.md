@@ -42,7 +42,7 @@ completed, specifically for
 
 ## Configuration - Application Settings
 
-Currently the deployment of application settings is manual and can be editted in either the Azure portal or via the Azure CLI
+Currently the deployment of application settings is manual and can be edited in either the Azure portal or via the Azure CLI
 
 ### Example
 
