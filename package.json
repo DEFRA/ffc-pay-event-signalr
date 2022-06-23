@@ -1,11 +1,12 @@
 {
   "name": "ffc-pay-event-signalr",
   "description": "Azure Function app for sending real-time events",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Defra",
   "contributors": [
     "Steve Dickinson <steve.dickinson@defra.gov.uk>",
-    "Marc Templeton <m.templeton@kainos.com>"
+    "Marc Templeton <m.templeton@kainos.com>",
+    "Simon Dunn <simon.dunn1@defra.gov.uk>"
   ],
   "dependencies": {
   },
@@ -27,7 +28,8 @@
     "start:verbose": "func start -p 7073 --verbose",
     "test": "jest",
     "test:watch": "jest --coverage=false --onlyChanged --watch",
-    "test:debug": "node --inspect-brk=0.0.0.0 ./node_modules/jest/bin/jest.js"
+    "test:debug": "node --inspect-brk=0.0.0.0 ./node_modules/jest/bin/jest.js",
+    "pretest": "npm run lint"
   },
   "standard": {
     "globals": [
