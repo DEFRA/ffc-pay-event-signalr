@@ -1,12 +1,13 @@
 {
   "name": "ffc-pay-event-signalr",
   "description": "Azure Function app for sending real-time events",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Defra",
   "contributors": [
     "Steve Dickinson <steve.dickinson@defra.gov.uk>",
     "Marc Templeton <m.templeton@kainos.com>",
-    "Simon Dunn <simon.dunn1@defra.gov.uk>"
+    "Simon Dunn <simon.dunn1@defra.gov.uk>",
+    "Callum Leighton <callum.leighton@kainos.com>"
   ],
   "dependencies": {
   },
